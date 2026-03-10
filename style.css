@@ -2,7 +2,7 @@ body{
     margin:0; font-family:Arial, Helvetica, sans-serif;
     background: #111;color:#e5e5e5;
 }
-header{
+header,footer{
     background:#8b0000;
     padding:20px;
     text-align:center;
@@ -13,14 +13,26 @@ header h1{
     letter-spacing: 3px;
 }
 nav{
+    background: #111;
     padding:10px;
     text-align:center;
-    margin-top: 20px;
 }
 nav a{
-    color:#ffffff;
+    color:#e5e5e5;
     margin:0 10px;
     text-decoration:none;
     font-weight:bold;
 }
 nav a:hover{color:#ff3b3b;}
+.hero{height:60vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(#000000cc,#000000cc),url('https://images.unsplash.com/photo-1509099836639-18ba1795216d') center/cover}
+.hero h2{font-size: 48px;margin:0;}
+.section{padding:50px 20px;max-width: 1000px;margin:auto;}
+.img{
+    width:50%;
+}
+footer{font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin:0;
+        letter-spacing: 3px;
+}
