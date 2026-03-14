@@ -3,12 +3,9 @@ body{
     background: #111;color:#e5e5e5;
 }
 header,footer{
-    width:100%;
     background:#8b0000;
     padding:20px;
-    box-shadow: 1px 1px 10px;
-    box-sizing: border-box;
-    text-align: center;
+    text-align:center;
 }
 header h1{
     margin:0;
@@ -31,21 +28,11 @@ nav a:hover{color:#ff3b3b;}
 .hero h2{font-size: 48px;margin:0;}
 .section{padding:50px 20px;max-width: 1000px;margin:auto;}
 .img{
-    width:100%;
-}
-section{
-    width:60%;
-    float:left;
-}
-aside{
-    width:40%;
-    float:right;
+    width:50%;
 }
 footer{font-family: Arial, Helvetica, sans-serif;
-        float:right;
+        text-align: center;
         font-size: 20px;
+        margin:0;
         letter-spacing: 3px;
-}
-.clearfix{
-    clear:both;
 }
