@@ -23,8 +23,6 @@ nav a{
     font-weight:bold;
 }
 nav a:hover{color:#ff3b3b;}
-.hero{height:60vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(#000000cc,#000000cc),url('https://images.unsplash.com/photo-1509099836639-18ba1795216d') center/cover}
-.hero h2{font-size: 48px;margin:0;}
 .section{padding:50px 20px;max-width: 1000px;margin:auto;}
 .img{
     width:100%;
@@ -51,3 +49,17 @@ footer{
     background:#111;color:white;border:none;padding:25px 45px;font-size:18px;border-radius:10px;cursor:pointer
 }
 .jogar:hover{background:#b30000;}
+
+@media (max-width: 420px) {
+    header{
+        text-align:center;
+    }
+
+    header nav, section,aside{
+        width:100%;
+    }
+
+    header nav a {
+        margin: 5px;
+    }
+}
