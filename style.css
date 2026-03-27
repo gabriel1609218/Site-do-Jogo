@@ -26,33 +26,32 @@ nav a{
     font-weight:bold;
 }
 nav a:hover{color:#ff3b3b;}
-.hero{height:60vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(#000000cc,#000000cc),url('https://images.unsplash.com/photo-1509099836639-18ba1795216d') center/cover}
-.hero h2{font-size: 48px;margin:0;}
+.hero{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(#000000cc,#000000cc),url("Imagens/Mundo\ Z.png") center/cover}
 .section{padding:50px 20px;max-width: 1000px;margin:auto;}
+.cards{display:grid;grid-template-columns: repeat (auto-fit,minmax(220px,1fr));gap:20px}
+.card{background: #151515;padding:20px;border-radius:12px;box-shadow:0 0 10px #000}
 .img{
     width:100%;
 }
 section{
-    width:60%;
-    float:left;
-}
-aside{
-    width:40%;
+    width:100%;
     float:right;
 }
+
+
 footer{font-family: Arial, Helvetica, sans-serif;
         float:right;
-        font-size: 15px;
+        font-size: 25px;
         letter-spacing: 3px;
 }
 .clearfix{
     clear:both;
 }
 
-.Jogar{background :#111;color:white;border:none;padding:15px 25px;font-size:20px;border-radius: 10px;cursor:pointer;
+.Jogar{background :#b30000;color:white;border:none;padding:15px 25px;font-size:25px;border-radius: 10px;cursor:pointer;
 
 }
-.jogar:hover{background:#b30000;}
+.jogar:hover{background:#111;}
 
 @media (max-width: 480px) {
     header{
