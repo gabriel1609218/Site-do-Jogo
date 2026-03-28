@@ -2,21 +2,23 @@ body{
     margin:0; font-family:Arial, Helvetica, sans-serif;
     background: #111;color:#e5e5e5;
 }
-header,footer{
+header,footer {
     width:100%;
-    background:#8b0000;
+    background:#720000;
     box-shadow: 1px 1px 10px;
     box-sizing: border-box;
     text-align: center;
 }
 header h1{
-    margin:0;
-    font-size: 40px;
+    margin: 0px;
+    font-size: 50px;
     letter-spacing: 3px;
+    padding: 30px;
+    
 }
 nav{
     background: #111;
-    padding:10px;
+    padding:20px;
     text-align:center;
 }
 nav a{
@@ -26,16 +28,18 @@ nav a{
     font-weight:bold;
 }
 nav a:hover{color:#ff3b3b;}
-.hero{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(#000000cc,#000000cc),url("Imagens/Mundo\ Z.png") center/cover}
-.section{padding:50px 20px;max-width: 1000px;margin:auto;}
+.hero{height:80vh;display:grid; align-items:center;justify-content:center;text-align:center;background:linear-gradient(#000000cc,#000000cc),url("Imagens/Mundo\ Z.png") center/cover}
+section {padding:50px 350px;max-width: 1000px;margin:auto; }
 .cards{display:grid;grid-template-columns: repeat (auto-fit,minmax(220px,1fr));gap:20px}
-.card{background: #151515;padding:20px;border-radius:12px;box-shadow:0 0 10px #000}
+.card{background: #443f3f;padding:10px;border-radius:10px;box-shadow:0 0 10px #2e2c2c;}
 .img{
     width:100%;
 }
-section{
+section {
     width:100%;
     float:right;
+    
+    
 }
 
 
@@ -43,12 +47,14 @@ footer{font-family: Arial, Helvetica, sans-serif;
         float:right;
         font-size: 25px;
         letter-spacing: 3px;
+        background-color: #000;
+        
 }
 .clearfix{
     clear:both;
 }
 
-.Jogar{background :#b30000;color:white;border:none;padding:15px 25px;font-size:25px;border-radius: 10px;cursor:pointer;
+.Jogar{background :#ff0000;color:white;border:none;padding:15px 25px;font-size:25px;border-radius: 0px;cursor:pointer;
 
 }
 .jogar:hover{background:#111;}
