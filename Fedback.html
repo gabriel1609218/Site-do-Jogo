@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Mundo Z</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-sacle=1">
+        <link rel="Icon" href="Imagens/Icon Z.png">
+        <link rel="stylesheet" href="Fedback.css">
+    </head>
+    <body>
+        <header>
+            <h1>Mundo Z</h1>
+            <nav>
+                <a href="inicio.html" title="Inicio">Inicio</a>
+                <a href="Historia.html" title="Historia">Historia</a>
+                <a href="Contato.html" title="Contato">Contato</a>
+                <a href="Fedback.html" title="Fedback">Fedback</a>
+                <a href="Jogar.html" title="Jogar">Jogar</a>
+            </nav>
+        </header>
+        <section>
+            <h1> Fedback </h1>
+
+            <form  name="form-informação" method="post" action="mailto:email@gmail.com/teste-form.php">
+                <label for="nome">Digite se nome:</label>
+                <input type="text" name="nome" id="nome" size="50"
+                maxlength="50" placeholder="Nome completo" required class="fedback">
+
+                <label for="email">Digite se E-mail:</label>
+                <input type="email" name="email" id="email"
+                maxlength="50" placeholder="Digite um e-mail valido" required class="fedback"
+                inputmode="email">
+
+                <label for="dataNascimento">Data Nascimento</label>
+                <input type="date" name="dataNascimento" id="dataNascimento"
+                class="fedback">
+
+                <label for="seuGenero"> Seu Genero:</label>
+                <select name="seuGenero" class="fedback" required>
+                    <option value=""> Selecione uma opção</option>
+                    <option value="Masculino"> Masculino</option>
+                    <option value="Femenino"> Femenino</option>
+                    <option value="Outro"> Outro</option>
+                </select>
+
+                <label for="fedback">Deixe seu Fedback:</label>
+                <textarea name="fedback" id="fedback" required
+                placeholder="Deixe seu fedback" class="fedback"
+                rows="5"></textarea>
+
+
+                <button type="submit" class="btn-submit">
+                    Enviar Fedback
+                </button>
+            </form>
+            <button class="Jogar">Jogar</button>
+
+        </section>
+
+        <footer>
+
+            <p>Mundo Z<br>
+            Site Desenvolvido Por Gabriel</p>
+        </footer>
+    </body>
+</html>
