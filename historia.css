@@ -3,10 +3,10 @@ body{
     background: #111;color:#e5e5e5;
 }
 
-header,footer {
+header, footer{
     width:100%;
     background:#720000;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 1px 1px 10px #ff0000;
     box-sizing: border-box;
     text-align: center;
 }
@@ -40,10 +40,10 @@ section {padding:50px 350px;max-width: 1000px;margin:auto; }
 
 
 footer{font-family: Arial, Helvetica, sans-serif;
-        float:right;
         font-size: 25px;
         letter-spacing: 3px;
         background-color: #000;
+        padding: 20px;
         
 }
 
@@ -55,13 +55,26 @@ footer{font-family: Arial, Helvetica, sans-serif;
 @media (max-width: 480px) {
     header{
         text-align:center;
+        padding-top: 50px;
     }
 
-    header nav, aside{
-        width:100%;
+    header, section,aside,footer{
+        width:152%;
     }
 
     header nav a {
         margin: 5px;
+        font-size: 25px;
     }
+   
+    section {
+        padding:50px 0px;
+    }   
+    header h1{
+        font-size: 70px;
+    }
+    section,h1,p {
+        font-size: 30px;
+    }
+
 }

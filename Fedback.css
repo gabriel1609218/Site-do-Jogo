@@ -6,9 +6,17 @@ body{
 header,footer {
     width:100%;
     background:#720000;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 1px 1px 10px #ff0000;
     box-sizing: border-box;
     text-align: center;
+}
+header{
+    position: fixed;
+
+}
+section{
+    
+    padding-top: 15%;
 }
 
 header h1{
@@ -42,6 +50,7 @@ label{
     font-weight: bold;
 }
 .fedback{
+    
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
@@ -87,6 +96,10 @@ footer{font-family: Arial, Helvetica, sans-serif;
 
     header nav a {
         margin: 5px;
+    }
+    section{
+    
+        padding-top: 45%;
     }
    
 }
