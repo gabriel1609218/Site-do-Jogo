@@ -11,6 +11,15 @@ header, footer{
     text-align: center;
 }
 
+header{
+    position: fixed;
+
+}
+
+section h1{
+    padding-top: 20%;
+}
+
 header h1{
     margin: 0px;
     font-size: 50px;
@@ -34,9 +43,9 @@ nav a{
 
 nav a:hover{color:#ff3b3b;}
 
-section {padding:50px 350px;max-width: 1000px;margin:auto; }
-.cards{display:grid;grid-template-columns: repeat (auto-fit,minmax(220px,1fr));gap:20px}
-.card{background: #443f3f;padding:20px;border-radius:10px;box-shadow:0 0 10px #2e2c2c;}
+section {padding:10px 150px;max-width: 1000px;margin:auto; }
+.cards{display:grid;grid-template-columns: repeat (auto-fit,minmax(120px,1fr));gap:20px}
+.card{background: #443f3f;padding:10px;border-radius:10px;box-shadow:0 0 0px #2e2c2c;}
 
 
 footer{font-family: Arial, Helvetica, sans-serif;
@@ -58,23 +67,31 @@ footer{font-family: Arial, Helvetica, sans-serif;
         padding-top: 50px;
     }
 
-    header, section,aside,footer{
-        width:152%;
+    header, section,aside{
+        width:100%;
+    }
+
+    footer{
+        width: 129%;
     }
 
     header nav a {
         margin: 5px;
-        font-size: 25px;
+        font-size: 20px;
     }
    
     section {
-        padding:50px 0px;
+        padding: 50px 0px;
     }   
     header h1{
         font-size: 70px;
     }
     section,h1,p {
         font-size: 30px;
+    }
+
+    section h1{
+        padding-top: 55%;
     }
 
 }
