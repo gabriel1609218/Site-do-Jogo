@@ -43,10 +43,11 @@ nav a{
 
 nav a:hover{color:#ff3b3b;}
 
-section {padding:10px 150px;max-width: 1000px;margin:auto; }
-.cards{display:grid;grid-template-columns: repeat (auto-fit,minmax(120px,1fr));gap:20px}
-.card{background: #443f3f;padding:10px;border-radius:10px;box-shadow:0 0 0px #2e2c2c;}
-
+section {padding:30px 150px;max-width: 1000px;margin:auto; }
+.cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:20px}
+.card{background: #443f3f;padding:10px;border-radius:12px;box-shadow:0 0 10px #2e2c2c;}
+.g{ padding-top: 40px;}
+.a{ text-align: center;}
 
 footer{font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
