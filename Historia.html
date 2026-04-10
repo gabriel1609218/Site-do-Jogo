@@ -34,7 +34,7 @@
             <p>Mas a jornada não será fácil. Enfrente muitos zumbis com escassez de recursos, e cada escolha pode ser a diferença entre a vida e a morte. Sua missão é clara: sobreviver e encontrar a cura antes que a humanidade desapareça para sempre.</p>
             
         </section>
-
+        <div id="conteudo-sensivel">
         <section class="a">
            <h2> Personagem </h2>
            
@@ -67,7 +67,7 @@
                     <p>Deformado pelo vírus, é mais agressivo e resistente que os outros zumbis.</p>
                 </div>
         </div>
-        
+    </div>
         </section>
 
 
@@ -78,22 +78,33 @@
             Site Desenvolvido Por Gabriel</p>
         </footer>
         <script>
-            const nomedojogo = "Mundo Z";
-            const genjogo = "ação / tiro";
-            const platjogo = "pc";
-            const classjogo = "18 anos";
 
-            document.getElementById("titulo-site").innerText = nomedojogo;
-            document.getElementById("info-gen").innerText = genjogo;
-            document.getElementById("info-plat").innerText = platjogo;
-            document.getElementById("info-class").innerText = classjogo;
+            const Ano_Lançamento = 2026;
+            let anoAtual = new Date().getFullYear();
 
+            if (anoAtual == Ano_Lançamento) {
+                alert("Notícia: Este jogo é um GRANDE LANÇAMENTO deste ano ");
+            }
 
+            let nomeVisitante = prompt("Bem vindo ao site! Qual o seu nome?");
+            let idadeVisitante = prompt("Ola," + nomeVisitante + "! Qual é a sua idade para acessar o conteúdo sensível?");
 
+            if (idadeVisitante >= 18) {
+                alert("Parabéns, " + nomeVisitante + "! Seu acesso foi liberado com sucesso,");
 
+                document.getElementById("conteudo-sensivel").style.filter = "none";
+            } else {
+                alert("Lamento, " + nomeVisitante + ". Por segurança, as imagens do jogo permancerão borradas.");
 
-
-
+                document.getElementById("conteudo-sensivel").style.filter = "blur(20px)";
+            }
         </script>
+
+
+
+
+
+
+    
     </body>
 </html>
