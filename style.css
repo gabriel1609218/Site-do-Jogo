@@ -9,19 +9,19 @@ header,footer {
     box-sizing: border-box;
     text-align: center;
 }
-header h1{
+header h1 {
     margin: 0px;
     font-size: 50px;
     letter-spacing: 3px;
     padding: 30px;
     
 }
-nav{
+nav {
     background: #111;
     padding:20px;
     text-align:center;
 }
-nav a{
+nav a {
     color:#e5e5e5;
     margin:0 10px;
     text-decoration:none;
@@ -40,13 +40,15 @@ section {
     float:right;
 
 }
+ 
 
 
 footer{font-family: Arial, Helvetica, sans-serif;
         float:right;
         font-size: 25px;
         letter-spacing: 3px;
-        background-color: #000;
+        background: #000;
+        color: white;
         
 }
 .clearfix{

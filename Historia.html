@@ -16,6 +16,17 @@
                 <a href="Contato.html" title="Contato">Contato</a>
                 <a href="Fedback.html" title="Fedback">Fedback</a>
                 <a href="Jogar.html" title="Jogar">Jogar</a>
+                 <button onclick="
+            let nomeRefazer = prompt('Como gostaria de ser chamado?');
+            let idadeRefazer = prompt('Olá, ' + nomeRefazer + '! Confirme sua idade:');
+            if (idadeRefazer >= 18) {
+                alert('Acesso Concedido! Conteúdo visível.');
+                document.getElementById('conteudo-sensivel').style.filter = 'none';
+            } else {
+                alert('Acesso Negado! Conteúdo permanecerá borrado.');
+                document.getElementById('conteudo-sensivel').style.filter = 'blur(20px)';
+            }
+        ">Refazer Verificação</button>
             </nav>
         </header>
         <section>
@@ -38,7 +49,7 @@
         <section class="a">
            <h2> Personagem </h2>
            
-           <img src="Personagem 1.png" alt="Chacal" historia="width:50%;border-radius:10px;margin-bottom:10px">
+           <img class="b" src="Personagem 1.png" alt="Chacal" historia="width:100%;border-radius:10px;margin-bottom:10px">
                 <h3> Chacal </h3>
                 <p>Especialista em combate de curta distância, utiliza armas pesadas e protege outros sobreviventes.</p>
                 
